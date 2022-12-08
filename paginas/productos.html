@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="../estilos/estilos.css" />
 </head>
 <body>
@@ -44,55 +45,55 @@
         <section class="productos">
             <h1>Todos nuestros productos</h1>
             <div class="productos__contenido">
-                <article class="tarjeta">
+                <article class="tarjeta" data-aos="flip-down">
                     <h3 class="productos__contenido-titulo">Remera Beige Oversize</h3>
                     <img src="../recursos/img/remera-beige.jpg" alt="remera-beige" />
                     <span class="tarjeta__precio">$2500</span>
                     <a class="tarjeta__boton" href="" target="_blank">COMPRAR</a>
                 </article>
-                <article class="tarjeta">
+                <article class="tarjeta" data-aos="flip-down">
                     <h3 class="productos__contenido-titulo">Remera Ride Oversize</h3>
                     <img src="../recursos/img/remera-ride.jpg" alt="remera-ride" />
                     <span class="tarjeta__precio">$2900</span>
                     <a class="tarjeta__boton" href="" target="_blank">COMPRAR</a>
                 </article>
-                <article class="tarjeta">
+                <article class="tarjeta" data-aos="flip-down">
                     <h3 class="productos__contenido-titulo">Remera Negra Oversize</h3>
                     <img src="../recursos/img/remera-negra.jpg" alt="remera-negra" />
                     <span class="tarjeta__precio">$2500</span>
                     <a class="tarjeta__boton" href="" target="_blank">COMPRAR</a>
                 </article>
-                <article class="tarjeta">
+                <article class="tarjeta" data-aos="flip-down">
                     <h3 class="productos__contenido-titulo">Remera Blanca Oversize</h3>
                     <img src="../recursos/img/remera-blanca.jpg" alt="remera-blanca" />
                     <span class="tarjeta__precio">$2500</span>
                     <a class="tarjeta__boton" href="" target="_blank">COMPRAR</a>
                 </article>
-                <article class="tarjeta">
+                <article class="tarjeta" data-aos="flip-down">
                     <h3 class="productos__contenido-titulo">Remera Endless Oversize</h3>
                     <img src="../recursos/img/remera-endless.jpg" alt="remera-endless" />
                     <span class="tarjeta__precio">$2900</span>
                     <a class="tarjeta__boton" href="" target="_blank">COMPRAR</a>
                 </article>
-                <article class="tarjeta">
+                <article class="tarjeta" data-aos="flip-down">
                     <h3 class="productos__contenido-titulo">Hoodie Negro</h3>
                     <img src="../recursos/img/hoodie-negro.jpg" alt="hoodie-negro" />
                     <span class="tarjeta__precio">$6400</span>
                     <a class="tarjeta__boton" href="" target="_blank">COMPRAR</a>
                 </article>
-                <article class="tarjeta">
+                <article class="tarjeta" data-aos="flip-down">
                     <h3 class="productos__contenido-titulo">Hoodie Gris</h3>
                     <img src="../recursos/img/hoodie-gris.jpg" alt="hoodie-gris" />
                     <span class="tarjeta__precio">$6400</span>
                     <a class="tarjeta__boton" href="" target="_blank">COMPRAR</a>
                 </article>
-                <article class="tarjeta">
+                <article class="tarjeta" data-aos="flip-down">
                     <h3 class="productos__contenido-titulo">Camisa Floreada</h3>
                     <img src="../recursos/img/camisa-floreada.jpg" alt="camisa-floreada" />
                     <span class="tarjeta__precio">$3100</span>
                     <a class="tarjeta__boton" href="" target="_blank">COMPRAR</a>
                 </article>
-                <article class="tarjeta">
+                <article class="tarjeta" data-aos="flip-down">
                     <h3 class="productos__contenido-titulo">Camisa Azul</h3>
                     <img src="../recursos/img/camisa-azul.jpg" alt="camisa-azul" />
                     <span class="tarjeta__precio">$3100</span>
@@ -110,5 +111,9 @@
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

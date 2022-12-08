@@ -16,7 +16,7 @@ header {
 
 /* contenido config */
 body {
-    background-color: rgb(228, 228, 228);
+    background-color: #e4e4e4;
     font-family: 'Mukta', sans-serif;
 }
 .hero {
@@ -30,20 +30,22 @@ body {
     width: 100%;
     height: 90vh;
     overflow: hidden;
-    border: solid 4px rgb(255, 255, 255, 0.75);
 }
 .productos {
-    margin: 20px;
+    margin: 0px;
 }
 .productos h1 {
     display: flex;
     justify-content: center;
-    margin: 20px;
+    padding: 20px;
+    background: rgb(228,228,228);
+    background: linear-gradient(0deg, rgba(228,228,228,1) 35%, rgba(255,255,255,1) 100%); 
 }
 .productos__contenido {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 16px;
+    margin: 20px;
 }
 .productos__contenido-titulo {
     padding: 6px;
@@ -146,6 +148,15 @@ body {
 .formulario__contenido-texto {
     margin-top: 10px;
 }
+.formulario__contenido-input {
+    outline: none;
+    border: 3px solid rgba(0, 115, 255, 0.696);
+    border-radius: 10px;
+}
+.formulario__contenido-input:focus {
+    border: 3px solid rgba(0, 72, 159, 0.696);
+}
+
 /* ANIMACIONES */
 
 .tarjeta:hover {
