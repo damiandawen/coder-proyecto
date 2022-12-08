@@ -13,6 +13,10 @@
 header {
     font-family: 'Kanit', sans-serif;
 }
+.nv__barra {
+    background: rgb(84,84,84);
+    background: linear-gradient(90deg, rgba(60,60,60,1) 0%, rgba(45,45,45,1) 52%, rgba(13,13,13,1) 100%) !important;
+}
 
 /* contenido config */
 body {
