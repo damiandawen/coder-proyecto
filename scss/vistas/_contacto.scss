@@ -1,0 +1,45 @@
+.titulomapas {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 44px;
+}
+
+.mapas {
+    display:flex ;
+    margin: 20px;
+    justify-content: space-around;
+
+    &__contenido {
+        border-radius: 12px;
+        width: 500px;
+        height: 400px;
+        border: solid 4px #000000;
+    }
+}
+
+.formulario {
+    background-color: #0158af42;
+    margin: 16px;
+    padding: 10px;
+    border-radius: 10px;
+
+    &__contenido {
+        display: flex;
+        flex-flow: column;
+        align-items: flex-start;
+
+        &-texto {
+            margin-top: 10px;
+        }
+        &-input {
+            outline: none;
+            border: 3px solid #0073ffb1;
+            border-radius: 10px;
+            
+            &:focus {
+                border: 3px solid #00489fb1;
+            }
+        }
+    }
+}

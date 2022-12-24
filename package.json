@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-principal",
+  "version": "1.0.0",
+  "description": "Proyecto principal coderhouse",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "node-sass --include-path scss scss/main.scss css/estilos.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damiandawen/coder-proyecto.git"
+  },
+  "author": "Damián Guimera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/damiandawen/coder-proyecto/issues"
+  },
+  "homepage": "https://github.com/damiandawen/coder-proyecto#readme"
+}
