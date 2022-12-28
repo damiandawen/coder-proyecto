@@ -12,11 +12,12 @@
         list-style-type: none; 
         justify-content: center;
         text-align: center;
+        a {
+            text-decoration: none;
+            color: $colorBotones;
+            margin: 10px;
+        }
     }
 }
 
-.piePagina__redes a {
-    text-decoration: none;
-    color: #60acd9;
-    margin: 10px;
-}
+
