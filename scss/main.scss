@@ -64,3 +64,34 @@
         width: 420px;
     }
 }
+
+@media (max-width: 480px) {
+    .tarjeta img {
+        height: 294px;
+        width: 240px;
+    }
+    .mapas__contenido{
+        height: 280px;
+        width: 330px;
+    }
+    .textarea {
+        width: 270px;
+    }
+    .piePagina {
+        flex-direction: column
+    }
+}
+
+@media (max-width: 320px) {
+    .tarjeta img {
+        height: 245px;
+        width: 200px;
+    }
+    .mapas__contenido{
+        height: 230px;
+        width: 260px;
+    }
+    .textarea {
+        width: 220px;
+    }
+}
