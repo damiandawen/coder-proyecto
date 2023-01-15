@@ -1,1 +1,13 @@
 $colorBotones: #005a9a;
+$fondocolor: #e4e4e4;
+$colNegro: black;
+$colBlanco: white;
+
+@mixin botones {
+    border: 1px solid #ffffff;
+    padding: 10px;
+    background-color: $colorBotones;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 20px;
+}

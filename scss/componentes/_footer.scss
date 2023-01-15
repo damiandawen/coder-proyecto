@@ -1,7 +1,7 @@
 .piePagina {
-    background-color: #000000;
+    background-color: $colNegro;
     display: flex;
-    color: #ffffff;
+    color: $colBlanco;
     height: 40px;
     padding: 18px;
     justify-content: center;
